@@ -16,7 +16,7 @@ $posturl = $_GET['post'];
 
 		<form method=POST action="https://<?php echo htmlspecialchars($post_url); ?>/cgi-bin/login">
 			Username
-			<input type="text" name="username" placeholder="Insert Username"><br>
+			<input type="text" name="user" placeholder="Insert Username"><br>
 			Password
 			<input type="text" name="password" placeholder="Insert Password"><br>
 			<input name=cmd value="authenticate" type="hidden">
